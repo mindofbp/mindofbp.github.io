@@ -14,13 +14,11 @@ header:
     - name: Home
       slug: /
     - name: Projects
+    - name: CV
+      slug: ./assets/Parry_CV.pdf
 
 footer:
-  show_powered_by: true
-  contact:
-    - type: email
-      name: Email
-      value: yourmail@domain.com
+  show_powered_by: false
   follow:
     - type: linkedin
       name: LinkedIn

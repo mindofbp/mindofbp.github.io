@@ -3,7 +3,7 @@ layout: projects
 title: Projects
 slug: /projects
 items:
-  - title: Resonate Recordings
+  - title: <a href="https://resonaterecordings.com" target="_blank">Resonate Recordings</a>
     image:
       src: /assets/img/work/resonate_recordings.png
       alt: resonate recordings
