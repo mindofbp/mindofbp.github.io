@@ -8,7 +8,7 @@ items:
       src: /assets/img/work/resonate_recordings.png
       alt: resonate recordings
     description: I contributed to the design and engineering of the web app at Resonate Recordings, helping build an integrated platform for clients to interact with audio engineers. In addition to all general web development, I worked on optimizing and scaling the podcast analytics service.
-  - title: Resound.fm
+  - title: <a href="https://resound.fm" target="_blank">Resound.fm</a>
     image:
       src: /assets/img/work/resoundfm.png
       alt: resound
