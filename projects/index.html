@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryce Parry</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+
+            <h1 class="logo"><a href="/">Bryce Parry</a></h1>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/assets/Parry_CV.pdf" target="_blank">CV (PDF)</a></li>
+                    <li><a href="/other">Other</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+<!-- Single-column content container -->
+
+<main class="main-container">
+
+    <div class="single-content">
+
+        <h1>Projects</h1>
+
+        <p class="intro-text">
+            This is a (non-exhaustive) list of things I've worked on. If you would like to
+            talk about any of them, just send me an email.
+        </p>
+
+        <div class="project-card">
+
+            <div class="project-image">
+                    <img src="/assets/img/work/bie laplace.png" alt="Laplace BIE Solver" >
+            </div>
+
+            <div class="project-text">
+                <h3>Laplace BIE Solver</h3>
+
+                <p>
+                    The Laplace problem on a separated domain, normally written with the differential operator,
+                    can be rewritten as a boundary integral equation. This leads to several analytic and
+                    numerical niceties. In this project, given Dirichlet boundary data, I solve the
+                    resulting integral equation for the unknown density layer and evaluate inside the
+                    domain. Specialized quadrature is used to improve accuracy near and on the boundary
+                    which requires the integration of a nearly-singular or singular integral. Code to
+                    come...
+                </p>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <div class="project-image">
+                <a href="https://resonaterecordings.com" target="_blank">
+                    <img src="/assets/img/work/resonate_recordings.png" alt="Resonate Recordings">
+                </a>
+            </div>
+
+            <div class="project-text">
+                <h3>Resonate Recordings</h3>
+
+                <p>
+                    I led the backend team of the web app, helping
+                    build an integrated platform for clients to interact with audio
+                    engineers. In addition to general web development, I worked on
+                    optimizing and scaling the podcast analytics service.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <div class="project-image">
+                <a href="https://resound.fm" target="_blank">
+                    <img src="/assets/img/work/resoundfm.png" alt="Resound.fm">
+                </a>
+            </div>
+
+            <div class="project-text">
+                <h3>Resound.fm</h3>
+
+                <p>
+                    I was one of the founding engineers of Resound and designed the system
+                    architecture for initial scale. We built a ML-powered audio/video
+                    editor in the browser, lots of problems related to the efficient
+                    transport and playback of large files in the browser. I also worked on
+                    an inverse problem, turning
+                    <a href="https://en.wikipedia.org/wiki/Advanced_Authoring_Format"
+                    target="_blank">AAF files</a> into decision trees of user editing actions.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+<!-- Footer -->
+    <footer>
+        <p>© 2026 Bryce Parry</p>
+    </footer>
+
+</body>
+</html>
